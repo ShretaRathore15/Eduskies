@@ -1,0 +1,107 @@
+<div id="page3">
+            <div id="elem-container">
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?student/">
+                    <div class="overlay"></div>
+                    <h2>Makers Studio HOI</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?education/">
+                    <div class="overlay"></div>
+                    <h2>50th Anniversary</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?/">
+                    <div class="overlay"></div>
+                    <h2>NYFW Popup</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?Cryptocurrency/">
+                    <div class="overlay"></div>
+                    <h2>Air Force 1 2021</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?Cryptocurrency/">
+                    <div class="overlay"></div>
+                    <h2>SOHO NYC</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?Cryptocurrency/">
+                    <div class="overlay"></div>
+                    <h2>SOHO 2023</h2>
+                </div>
+                <div class="elem"
+                    data-image="https://source.unsplash.com/random/?/">
+                    <div class="overlay"></div>
+                    <h2>Play New Kidvision</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        #page3 {
+            min-height: 100vh;
+            width: 100%;
+            /* background-color: #EDEAE2; */
+            padding: 4vw 0;
+        }
+        
+        .elem {
+            height: 150px;
+            width: 100%;
+            /* background-color: rgb(244, 14, 14); */
+            /* border-top: 1px solid black; */
+            border-bottom: 1px solid rgb(177, 163, 163);
+            display: flex;
+            padding: 0 2vw;
+            position: relative;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .elem h2 {
+            font-size: 3vw;
+            position: relative;
+            z-index: 99;
+            /* color:rgb(85, 82, 37); */
+        
+        }
+        
+        .elem .overlay {
+            height: 100%;
+            width: 100%;
+            /* background-color:rgb(189, 185, 124); */
+            position: absolute;
+            left: 0;
+            top: -100%;
+            transition: all ease 0.3s;
+        }
+        
+        .elem:hover .overlay {
+            top: 0;
+        }
+        
+        #fixed-image {
+            height: 30vw;
+            width: 23vw;
+            background-color: red;
+            border-radius: 10px;
+            position: fixed;
+            z-index: 99;
+            top: 25%;
+            left: 50%;
+            display: none;
+            background-size: cover;
+            background-position: center;
+        }
+        .elem img{
+            height: 30vw;
+            width: 23vw;
+        }
+        

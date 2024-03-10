@@ -1,0 +1,8 @@
+ .nav i{
+   display: none;
+ }
+@media (max-width:600px){
+   .nav{
+      background-color: aqua;
+   }
+}

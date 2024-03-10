@@ -1,0 +1,78 @@
+#page7 {
+    min-height: 10vh;
+    width: 100%;
+    background-color: #ebe9e1;
+    padding: 8vw 0;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  .content{
+    /* background: linear-gradient(to bottom, rgba(226, 218, 2, 0.565) 0%, #88e5cb 100%); */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 2rem;
+  }
+  .content h2 {
+    padding-bottom: 2rem;
+    font-family: Sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(69, 69, 104);
+      text-decoration: underline;
+  }
+  table {
+    padding: 3rem;
+    color: rgb(4, 60, 125);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    /* border: 4px solid rgb(11, 109, 120); */
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  form tr{
+    line-height: 60px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 10px
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    width: 20%;
+    margin: 19px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #5d5959;
+    color: rgb(255, 235, 156);
+    border: 3px;
+  }
+  

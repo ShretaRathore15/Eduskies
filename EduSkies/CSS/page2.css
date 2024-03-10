@@ -1,0 +1,64 @@
+#page2 {
+    min-height: 45vh;
+    width: 100%;
+    /* background-color: #EFEAE3; */
+    padding: 14vw 0;
+
+}
+
+.con {
+    /* background-color: lightblue; */
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#moving-text {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#moving-text::-webkit-scrollbar {
+    display: none;
+}
+
+#moving-text h3 {
+    font-size: 9vw;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    /* color:rgb(40, 39, 17); */
+
+}
+
+#gola {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgb(204, 191, 11);
+    margin: 1vw 2vw;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    #gola{
+        height: 32px;
+        width: 35px;
+    }
+
+    
+}
